@@ -83,7 +83,7 @@ if st.session_state.get("confirmed", False):
             template = Image.open(template_path).convert("RGBA")
             draw = ImageDraw.Draw(template)
             # フォント設定
-            FONT_PATH = os.path.join("fonts", "fonts/NotoSansTC-SemiBold.ttf")
+            FONT_PATH = os.path.join("fonts", "NotoSansTC-SemiBold.ttf")
             font = ImageFont.truetype(FONT_PATH, 50)
 
             # 番号描画
